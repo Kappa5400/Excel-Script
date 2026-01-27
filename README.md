@@ -18,3 +18,4 @@ The script itself
 The business logic script, inside the Business_Logic.py file, uses the pandas library to load the excel file, gather the customers inside the customer DB, then scrape the master revenue file for those customers and returning their December revenue for 2025 and 2024.  
 
 GUI
+The GUI (graphic user interface) is made with tinker and has four buttons: load master revenue file, load customer DB file, create report, or exit application. It also has a selection textbox to select the month. After selecting the files and a month, the user can click the create report button, which then passes the month information and two files to the business logic which runs and produces the end result, an excel file, that will appear in the same file as the script. I didn't bother adding error handling for instances where a user selects the wrong files as I deemed it not necessary to deal with at the time of development.
