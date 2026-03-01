@@ -30,4 +30,3 @@ def Business_logic(month, excel, customer_db):
 
 
 
-Business_logic(12, "Revenue report template.xlsx", "Customer DB Template.xlsx")

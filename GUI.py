@@ -48,7 +48,7 @@ month_dropdown.set("Select Month")
 month_dropdown.pack()
 
 # File Selection Section
-tk.Label(root, text="Step 2: Select Master Revenue Report for Selected Month.", font=("Arial", 10, "bold")).pack(pady=(20, 5))
+tk.Label(root, text="Step 2: Select Revenue Report for Selected Month.", font=("Arial", 10, "bold")).pack(pady=(20, 5))
 
 btn1 = tk.Button(root, text="Browse File 1", command=lambda: select_file(file_path1, lbl1))
 btn1.pack()
